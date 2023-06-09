@@ -1,17 +1,14 @@
 <template>
-    <h3>關於</h3>
+  <Menu />
+  <h3>關於</h3>
 </template>
-  
-<script>
 
+<script>
+import Menu from '@/views/Layout/menu.vue'
 export default {
   name: 'AppAbout',
-  components: {
-   
-  }
+  components: {Menu}
 }
 </script>
 
-<style>
-
-</style>
+<style></style>

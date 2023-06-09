@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Home from '@/views/Home.vue'
+import Home from '@/views/Home/Index.vue'
 import About from '@/views/About.vue'
-import Login from '@/components/pages/Login'
+import Login from '@/views/Login'
 
 const routes = [
   {path: "/",  component: Home,meta:{requiresAuth:true}},
