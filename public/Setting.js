@@ -1,3 +1,3 @@
 window._config={
-    API_DOMAIN: '127.0.0.1:5271'
+    API_DOMAIN: 'localhost:5271'
 }

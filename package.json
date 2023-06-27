@@ -12,6 +12,8 @@
     "bootstrap": "^5.3.0",
     "core-js": "^3.8.3",
     "element-plus": "^2.3.6",
+    "mqtt": "^4.3.7",
+    "precompiled-mqtt": "^4.3.14-beta",
     "vue-router": "^4.2.2"
   },
   "devDependencies": {

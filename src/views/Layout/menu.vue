@@ -11,6 +11,18 @@
     <el-menu-item index="1">
       <router-link to="/">Susda Home</router-link>
     </el-menu-item>
+    <!-- <el-menu-item index="2">
+      <router-link to="/Mqtt">MQTT測試</router-link>
+    </el-menu-item> -->
+    <el-sub-menu index="2">
+      <template #title>MQTT測試</template>
+      <el-menu-item index="2-1">
+        <router-link to="/Mqtt1">MQTT測試1</router-link>
+      </el-menu-item>
+      <el-menu-item index="/2-2">
+        <router-link to="/Mqtt2">MQTT測試2</router-link>
+      </el-menu-item>
+    </el-sub-menu>
     <!-- <el-sub-menu index="2">
       <template #title>工作站</template>
       <el-menu-item index="2-1">item one</el-menu-item>
